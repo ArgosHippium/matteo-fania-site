@@ -204,3 +204,38 @@ html {
 
 
 
+/* ----------- Responsive design ----------- */
+
+@media (max-width: 768px) {
+    body {
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    header .header-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+      padding: 0;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .text-overlay {
+      font-size: 1.2rem;
+    }
+  
+    .contact-icons img {
+      width: 40px;
+      margin: 10px;
+    }
+  }
+  
